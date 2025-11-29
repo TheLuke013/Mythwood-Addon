@@ -1,0 +1,37 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "myth:lich",
+			"materials": {
+				"default": "slime_outer"
+			},
+			"textures": {
+				"default": "textures/entity/lich"
+			},
+			"geometry": {
+				"default": "geometry.lich"
+			},
+			"render_controllers": [
+				"controller.render.lich"
+			],
+			"spawn_egg": {
+				"base_color": "#000000",
+				"overlay_color": "#FFFFFF"
+			},
+			"animations": {
+				"casting": "animation.lich.casting",
+				"general": "animation.lich.general",
+				"move": "animation.lich.move"
+			},
+			"scripts": {
+				"animate": [
+					"general",
+					{
+						"move": "query.modified_move_speed>=0.1"
+					}
+				]
+			}
+		}
+	}
+}

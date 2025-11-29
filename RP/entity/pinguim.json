@@ -1,0 +1,37 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "myth:pinguim",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/entity/pinguim"
+			},
+			"geometry": {
+				"default": "geometry.pinguim"
+			},
+			"render_controllers": [
+				"controller.render.pinguim"
+			],
+			"spawn_egg": {
+				"texture": "myth:penguim_spawn_egg"
+			},
+			"animations": {
+				"idle": "animation.pinguim.idle",
+				"walking": "animation.pinguim.walking"
+			},
+			"scripts": {
+				"animate": [
+					{
+						"idle": "query.modified_move_speed<=0.01"
+					},
+					{
+						"walking": "query.modified_move_speed>=0.01"
+					}
+				]
+			}
+		}
+	}
+}

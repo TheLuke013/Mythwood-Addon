@@ -1,0 +1,190 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.lich.casting": {
+			"loop": true,
+			"animation_length": 2,
+			"bones": {
+				"arms": {
+					"scale": 0
+				},
+				"leftArm": {
+					"rotation": ["math.cos(query.life_time * 763.4) * 14.3239 - this", "-this", "-135.0 - this"],
+					"scale": 1
+				},
+				"rightArm": {
+					"rotation": ["math.cos(query.life_time * 763.4) * 14.3239 - this", "-this", "135.0 - this"],
+					"scale": 1
+				},
+				"magic": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.5": [0, 0, 0],
+						"1.0": [0, 0, 0],
+						"1.5": [0, 0, 0],
+						"2.0": [0, 0, 0]
+					},
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.25": [0, -1, 0],
+						"0.5": [0, 0, 0],
+						"0.75": [0, 1, 0],
+						"1.0": [0, 0, 0],
+						"1.25": [0, -1, 0],
+						"1.5": [0, 0, 0],
+						"1.75": [0, 1, 0],
+						"2.0": [0, 0, 0]
+					}
+				},
+				"magic2": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"2.0": [0, -1170, 0]
+					}
+				},
+				"cap": {
+					"rotation": {
+						"0.0": [115, 0, 0],
+						"0.5": [85, 0, 0],
+						"1.0": [115, 0, 0]
+					}
+				},
+				"magicshild": {
+					"rotation": {
+						"0.0": [-7.5, 0, 0],
+						"0.5": [0, 0, -7.5],
+						"1.0": [7.5, 0, 0],
+						"1.5": [0, 0, 7.5],
+						"2.0": [-7.5, 0, 0]
+					}
+				},
+				"Rotate": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"2.0": [0, -1350, 0]
+					}
+				}
+			}
+		},
+		"animation.lich.casting.v1.0": {
+			"loop": true,
+			"animation_length": 2,
+			"bones": {
+				"leftArm": {
+					"rotation": ["math.cos(query.life_time * 763.4) * 14.3239 - this", "-this", "-135.0 - this"],
+					"position": ["5.0 - this", 0, "-this"]
+				},
+				"rightArm": {
+					"rotation": ["math.cos(query.life_time * 763.4) * 14.3239 - this", "-this", "135.0 - this"],
+					"position": ["-5.0 - this", 0, "-this"]
+				},
+				"magic": {
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.25": [0, -1, 0],
+						"0.5": [0, 0, 0],
+						"0.75": [0, -1, 0],
+						"1.0": [0, 0, 0]
+					}
+				},
+				"magic2": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"1.0": [0, 720, 0]
+					},
+					"position": [0, 0, 0]
+				},
+				"magicshild": {
+					"rotation": {
+						"0.0": [-7.5, 0, 0],
+						"0.5": [0, 0, -7.5],
+						"1.0": [7.5, 0, 0],
+						"1.5": [0, 0, 7.5],
+						"2.0": [-7.5, 0, 0]
+					}
+				},
+				"Rotate": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"2.0": [0, -1350, 0]
+					}
+				}
+			}
+		},
+		"animation.lich.general": {
+			"loop": true,
+			"animation_length": 2,
+			"bones": {
+				"arms": {
+					"rotation": ["-42.97 - this", " -this", "- this"],
+					"position": [0, "-3.0 - this", "-1.0 - this"],
+					"scale": 1
+				},
+				"leftArm": {
+					"scale": 0
+				},
+				"rightArm": {
+					"scale": 0
+				},
+				"magic": {
+					"position": [0, -13, 0],
+					"scale": [0, 1, 0]
+				},
+				"magicshild": {
+					"rotation": {
+						"0.0": [-7.5, 0, 0],
+						"0.5": [0, 0, -7.5],
+						"1.0": [7.5, 0, 0],
+						"1.5": [0, 0, 7.5],
+						"2.0": [-7.5, 0, 0]
+					},
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.5": [0, -2, 0],
+						"1.0": [0, 0, 0],
+						"1.5": [0, 2, 0],
+						"2.0": [0, 0, 0]
+					}
+				},
+				"Rotate": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"2.0": [0, -1350, 0]
+					}
+				}
+			}
+		},
+		"animation.lich.move": {
+			"loop": true,
+			"animation_length": 2,
+			"anim_time_update": "query.modified_distance_moved",
+			"bones": {
+				"leg0": {
+					"rotation": ["(math.cos(query.anim_time * 38.17) * 40.0) - this", "-this", 0]
+				},
+				"leg1": {
+					"rotation": ["(math.cos(query.anim_time * 38.17 + 180) * 40.0) - this", "-this", 0]
+				},
+				"magic": {
+					"position": [0, -13, 0],
+					"scale": [0, 1, 0]
+				},
+				"magicshild": {
+					"rotation": {
+						"0.0": [-7.5, 0, 0],
+						"0.5": [0, 0, -7.5],
+						"1.0": [7.5, 0, 0],
+						"1.5": [0, 0, 7.5],
+						"2.0": [-7.5, 0, 0]
+					}
+				},
+				"Rotate": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"2.0": [0, -1350, 0]
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,46 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "myth:ice_queen",
+			"materials": {
+				"default": "slime",
+				"outer": "slime_outer"
+			},
+			"textures": {
+				"default": "textures/entity/ice_queen"
+			},
+			"geometry": {
+				"default": "geometry.ice_queen"
+			},
+			"render_controllers": [
+				"controller.render.ice_queen",
+				"controller.render.slime"
+			],
+			"spawn_egg": {
+				"base_color": "#000000",
+				"overlay_color": "#FFFFFF"
+			},
+			"animations": {
+				"idle": "animation.ice_queen.idle",
+				"walk": "animation.ice_queen.walk",
+				"run": "animation.ice_queen.run",
+				"fly": "animation.ice_queen.Fly",
+				"attack": "animation.ice_queen.attack"
+			},
+			"scripts": {
+				"animate": [
+					{
+						"idle": "query.modified_move_speed<=0.01"
+					},
+					{
+						"walk": "query.modified_move_speed>=0.1&&query.modified_move_speed<0.5"
+					},
+					{
+						"run": "query.modified_move_speed>=0.5"
+					}
+				]
+			}
+		}
+	}
+}

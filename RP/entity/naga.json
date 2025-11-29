@@ -1,0 +1,44 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "myth:naga",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/entity/Naga"
+			},
+			"geometry": {
+				"default": "geometry.naga"
+			},
+			"render_controllers": [
+				"controller.render.naga"
+			],
+			"spawn_egg": {
+				"base_color": "#000000",
+				"overlay_color": "#FFFFFF"
+			},
+			"animations": {
+				"run": "animation.naga.run",
+				"walk": "animation.naga.walk",
+				"idle": "animation.naga.idle",
+				"attack": "animation.naga.attack",
+				"roar": "animation.naga.roar"
+			},
+			"scripts": {
+				"animate": [
+					{
+						"idle": "query.modified_move_speed<=0.01"
+					},
+					{
+						"walk": "query.modified_move_speed>=0.1&&query.modified_move_speed<0.5"
+					},
+					{
+						"run": "query.modified_move_speed>=0.5"
+					}
+				]
+			}
+		}
+	}
+}

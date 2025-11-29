@@ -1,0 +1,17 @@
+{
+    "entity_sounds": {
+        "entities": {
+            "myth:pinguim": {
+                "volume": 1,
+                "pitch": [
+                    0.8,
+                    1.2
+                ],
+                "events": {
+                    "ambient": "mob.penguin.ambient",
+                    "hurt": "mob.penguin.hurt"
+                }
+            }
+        }
+    }
+}

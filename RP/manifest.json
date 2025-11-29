@@ -1,0 +1,52 @@
+{
+	"format_version": 2,
+	"metadata": {
+		"authors": [
+			"Caputino"
+		],
+		"generated_with": {
+			"bridge": [
+				"2.7.52"
+			],
+			"dash": [
+				"0.11.7"
+			]
+		}
+	},
+	"header": {
+		"name": "pack.name",
+		"description": "pack.description",
+		"min_engine_version": [
+			1,
+			21,
+			120
+		],
+		"uuid": "64bc17df-6fd0-4657-8395-a36cec5546ab",
+		"version": [
+			1,
+			0,
+			0
+		]
+	},
+	"modules": [
+		{
+			"type": "resources",
+			"uuid": "da7f4ab8-674f-4261-8f99-4281e9ce8558",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "8bb10968-c9d5-48ba-9b83-8a2dff37154d",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	]
+}

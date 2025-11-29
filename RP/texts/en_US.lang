@@ -1,0 +1,12 @@
+pack.name=Mythwood RP
+pack.description=Um remake de Twilight Forest para bedrock!
+item.spawn_egg.entity.myth:hydra.name=Spawn Hydra
+entity.myth:hydra.name=Hydra
+item.spawn_egg.entity.myth:naga.name=Spawn Naga
+entity.myth:naga.name=Naga
+item.spawn_egg.entity.myth:lich.name=Spawn Lich
+entity.myth:lich.name=Lich
+item.spawn_egg.entity.myth:ice_queen.name=Spawn Ice Queen
+entity.myth:ice_queen.name=Ice Queen
+item.spawn_egg.entity.myth:pinguim.name=Spawn Pinguim
+entity.myth:pinguim.name=Pinguim

@@ -1,0 +1,88 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "myth:hydra",
+			"is_spawnable": true,
+			"is_summonable": true,
+			"is_experimental": false
+		},
+		"component_groups": {},
+		"components": {
+			"minecraft:physics": {},
+			"minecraft:pushable": {},
+			"minecraft:health": {
+				"value": 360
+			},
+			"minecraft:type_family": {
+				"family": [
+					"hydra"
+				]
+			},
+			"minecraft:knockback_resistance": {
+				"value": 1
+			},
+			"minecraft:boss": {
+				"hud_range": 60,
+				"name": "Hydra"
+			},
+			"minecraft:behavior.look_at_player": {
+				"look_distance": 20
+			},
+			"minecraft:behavior.look_at_target": {
+				"look_distance": 20
+			},
+			"minecraft:custom_hit_test": {
+				"hitboxes": [
+					{
+						"pivot": [
+							0,
+							0,
+							0
+						],
+						"height": 3.5,
+						"width": 3.5
+					}
+				]
+			},
+			"minecraft:rideable": {
+				"family_types": [
+					"hydra_head"
+				],
+				"seat_count": 3,
+				"seats": [
+					{
+						"min_rider_count": 0,
+						"max_rider_count": 3,
+						"position": [
+							0,
+							10,
+							10
+						]
+					},
+					{
+						"min_rider_count": 2,
+						"max_rider_count": 3,
+						"position": [
+							10,
+							10,
+							0
+						]
+					},
+					{
+						"min_rider_count": 3,
+						"max_rider_count": 3,
+						"position": [
+							0,
+							10,
+							0
+						]
+					}
+				]
+			}
+		},
+		"events": {
+			"minecraft:entity_spawned": {}
+		}
+	}
+}

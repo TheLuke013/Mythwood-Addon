@@ -1,0 +1,50 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "myth:hydra",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/entity/hydra"
+			},
+			"geometry": {
+				"default": "geometry.hydra"
+			},
+			"render_controllers": [
+				"controller.render.hydra"
+			],
+			"spawn_egg": {
+				"base_color": "#1B5AA7",
+				"overlay_color": "#096E67"
+			},
+			"animations": {
+				"attack": "animation.hydra.attack",
+				"firebreath": "animation.hydra.Firebreath",
+				"roar": "animation.hydra.roar",
+				"eat": "animation.hydra.eat",
+				"sniff": "animation.hydra.sniff",
+				"walk": "animation.hydra.walk",
+				"run": "animation.hydra.run",
+				"sit": "animation.hydra.sit",
+				"sleep": "animation.hydra.sleep",
+				"jump": "animation.hydra.jump",
+				"idle": "animation.hydra.idle"
+			},
+			"scripts": {
+				"animate": [
+					{
+						"idle": "query.modified_move_speed<=0.01"
+					},
+					{
+						"walk": "query.modified_move_speed>=0.1&&query.modified_move_speed<0.5"
+					},
+					{
+						"run": "query.modified_move_speed>=0.5"
+					}
+				]
+			}
+		}
+	}
+}

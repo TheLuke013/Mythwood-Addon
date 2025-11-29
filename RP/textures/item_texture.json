@@ -1,0 +1,11 @@
+{
+	"resource_pack_name": "Mythwood",
+	"texture_name": "atlas.items",
+	"texture_data": {
+		"myth:penguim_spawn_egg": {
+			"textures": [
+				"textures/items/pinguim_spawn_egg"
+			]
+		}
+	}
+}

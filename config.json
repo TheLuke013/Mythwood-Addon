@@ -1,0 +1,44 @@
+{
+	"type": "minecraftBedrock",
+	"name": "Mythwood",
+	"namespace": "myth",
+	"authors": [
+		"Caputino"
+	],
+	"targetVersion": "1.21.120",
+	"description": "Um remake de Twilight Forest para bedrock!",
+	"experimentalGameplay": {
+		"upcomingCreatorFeatures": true,
+		"experimentalCreatorCameraFeatures": true,
+		"enableGameTestFramework": true,
+		"renderDragonFeatures": true,
+		"educationEdition": true
+	},
+	"bdsProject": false,
+	"packs": {
+		"behaviorPack": "./BP",
+		"resourcePack": "./RP"
+	},
+	"worlds": [
+		"./worlds/*"
+	],
+	"compiler": {
+		"plugins": [
+			"generatorScripts",
+			"typeScript",
+			"entityIdentifierAlias",
+			"customEntityComponents",
+			"customItemComponents",
+			"customBlockComponents",
+			"customCommands",
+			"moLang",
+			"formatVersionCorrection",
+			[
+				"simpleRewrite",
+				{
+					"packName": "Mythwood"
+				}
+			]
+		]
+	}
+}
