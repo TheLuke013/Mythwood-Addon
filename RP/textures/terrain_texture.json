@@ -3,5 +3,18 @@
 	"padding": 8,
 	"resource_pack_name": "Mythwood",
 	"texture_name": "atlas.terrain",
-	"texture_data": {}
+	"texture_data": {
+		"myth:canopy_leaves": {
+			"textures": "textures/blocks/canopy_leaves"
+		},
+		"myth:canopy_leaves2": {
+			"textures": "textures/blocks/canopy_leaves2"
+		},
+		"myth:canopy_log": {
+			"textures": "textures/blocks/canopy_log"
+		},
+		"myth:canopy_log_top": {
+			"textures": "textures/blocks/canopy_log_top"
+		}
+	}
 }

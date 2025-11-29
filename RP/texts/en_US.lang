@@ -10,3 +10,6 @@ item.spawn_egg.entity.myth:ice_queen.name=Spawn Ice Queen
 entity.myth:ice_queen.name=Ice Queen
 item.spawn_egg.entity.myth:pinguim.name=Spawn Pinguim
 entity.myth:pinguim.name=Pinguim
+tile.myth:canopy_leaves.name=Canopy Leaves
+tile.myth:canopy_leaves2.name=Canopy Leaves 2
+tile.myth:canopy_log.name=Canopy Log

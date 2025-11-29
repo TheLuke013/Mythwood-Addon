@@ -3,5 +3,17 @@
 		1,
 		1,
 		0
-	]
+	],
+	"myth:canopy_leaves": {
+		"sound": "grass",
+		"textures": "myth:canopy_leaves"
+	},
+	"myth:canopy_leaves2": {
+		"sound": "grass",
+		"textures": "myth:canopy_leaves2"
+	},
+	"myth:canopy_log": {
+		"sound": "wood",
+		"textures": "myth:canopy_log"
+	}
 }

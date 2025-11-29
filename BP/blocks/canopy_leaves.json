@@ -1,0 +1,33 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:block": {
+		"description": {
+			"identifier": "myth:canopy_leaves",
+			"menu_category": {
+				"category": "nature",
+				"group": "itemGroup.name.leaves"
+			}
+		},
+		"components": {
+			"tag:minecraft:is_hoe_item_destructible": {},
+			"tag:minecraft:is_shears_item_destructible": {},
+			"minecraft:destructible_by_mining": {
+				"seconds_to_destroy": 0.35
+			},
+			"minecraft:destructible_by_explosion": {
+				"explosion_resistance": 0.2
+			},
+			"minecraft:map_color": "#28590D",
+			"minecraft:flammable": {
+				"catch_chance_modifier": 5,
+				"destroy_chance_modifier": 20
+			},
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "myth:canopy_leaves",
+					"render_method": "alpha_test"
+				}
+			}
+		}
+	}
+}
