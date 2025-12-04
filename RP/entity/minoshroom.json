@@ -1,0 +1,40 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "myth:minoshroom",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/entity/minotauro"
+			},
+			"geometry": {
+				"default": "geometry.minoshroom"
+			},
+			"render_controllers": [
+				"controller.render.minoshroom"
+			],
+			"spawn_egg": {
+				"base_color": "#AE1A1A",
+				"overlay_color": "#C4A8A8"
+			},
+			"animations": {
+				"walking": "animation.minotauro.andando",
+				"attack": "animation.minotauro.ataque",
+				"look_at_target": "animation.minotauro.look_at_target"
+			},
+			"scripts": {
+				"animate": [
+					"look_at_target",
+					{
+						"walking": "query.modified_move_speed>=0.01"
+					},
+					{
+						"attack": "variable.attack_time>0"
+					}
+				]
+			}
+		}
+	}
+}

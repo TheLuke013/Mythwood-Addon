@@ -13,3 +13,5 @@ entity.myth:pinguim.name=Pinguim
 tile.myth:canopy_leaves.name=Canopy Leaves
 tile.myth:canopy_leaves2.name=Canopy Leaves 2
 tile.myth:canopy_log.name=Canopy Log
+item.spawn_egg.entity.myth:minoshroom.name=Spawn Minoshroom
+entity.myth:minoshroom.name=Minoshroom
