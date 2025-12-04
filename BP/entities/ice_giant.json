@@ -1,0 +1,28 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "myth:ice_giant",
+			"is_spawnable": true,
+			"is_summonable": true,
+			"is_experimental": false
+		},
+		"component_groups": {},
+		"components": {
+			"minecraft:physics": {},
+			"minecraft:pushable": {
+				"is_pushable": true,
+				"is_pushable_by_piston": true
+			},
+			"minecraft:scale": {
+				"value": 4.95
+			},
+			"minecraft:type_family": {
+				"family": [
+					"ice_giant"
+				]
+			}
+		},
+		"events": {}
+	}
+}

@@ -18,8 +18,8 @@
 				"controller.render.slime"
 			],
 			"spawn_egg": {
-				"base_color": "#000000",
-				"overlay_color": "#FFFFFF"
+				"base_color": "#7AE3E8",
+				"overlay_color": "#78C3E1"
 			},
 			"animations": {
 				"idle": "animation.ice_queen.idle",

@@ -1,0 +1,32 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "myth:fiery_sword"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"A",
+			"A",
+			"B"
+		],
+		"key": {
+			"A": {
+				"item": "myth:fiery_ingot"
+			},
+			"B": {
+				"item": "minecraft:stick"
+			}
+		},
+		"result": {
+			"item": "myth:fiery_sword"
+		},
+		"unlock": [
+			{
+				"item": "myth:fiery_ingot"
+			}
+		]
+	}
+}

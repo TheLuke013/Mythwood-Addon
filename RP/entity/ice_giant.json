@@ -1,0 +1,24 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "myth:ice_giant",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/entity/ice_giant"
+			},
+			"geometry": {
+				"default": "geometry.ice_giant"
+			},
+			"render_controllers": [
+				"controller.render.ice_giant"
+			],
+			"spawn_egg": {
+				"base_color": "#9C9393",
+				"overlay_color": "#FFFFFF"
+			}
+		}
+	}
+}

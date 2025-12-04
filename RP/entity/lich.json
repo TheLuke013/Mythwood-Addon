@@ -16,8 +16,8 @@
 				"controller.render.lich"
 			],
 			"spawn_egg": {
-				"base_color": "#000000",
-				"overlay_color": "#FFFFFF"
+				"base_color": "#241E6F",
+				"overlay_color": "#B5BC73"
 			},
 			"animations": {
 				"casting": "animation.lich.casting",

@@ -6,6 +6,29 @@
 			"textures": [
 				"textures/items/pinguim_spawn_egg"
 			]
+		},
+		"myth:minshroom_spawn_egg": {
+			"textures": [
+				"textures/items/minoshroom_spawn_egg"
+			]
+		},
+		"myth:fiery_ingot": {
+			"textures": "textures/items/fiery_ingot"
+		},
+		"myth:fiery_sword": {
+			"textures": "textures/items/fiery_sword"
+		},
+		"myth:fiery_helmet": {
+			"textures": "textures/items/fiery_helmet"
+		},
+		"myth:fiery_chestplate": {
+			"textures": "textures/items/fiery_chestplate"
+		},
+		"myth:fiery_leggings": {
+			"textures": "textures/items/fiery_leggings"
+		},
+		"myth:fiery_boots": {
+			"textures": "textures/items/fiery_boots"
 		}
 	}
 }

@@ -1,0 +1,40 @@
+{
+    "format_version": "1.20.0",
+    "minecraft:attachable": {
+        "description": {
+            "identifier": "myth:fiery_sword",
+            "materials": {
+                "default": "entity"
+            },
+            "textures": {
+                "default": "textures/weapons/fiery_sword"
+            },
+            "geometry": {
+                "default": "geometry.fiery_sword"
+            },
+            "animations": {
+                "first_person": "animation.fiery_sword.first_person",
+                "third_person": "animation.fiery_sword.third_person"
+            },
+            "scripts": {
+                "parent_setup": "t.fiery_sword_attack = v.attack_time;",
+                "pre_animation": [
+                    "v.fiery_sword = query.get_equipped_item_name('main_hand') == 'fiery_sword';",
+                    "v.attack_time = t.fiery_sword_attack ?? 0;",
+                    "v.c_ifp = context.is_first_person;"
+                ],
+                "animate": [
+                    {
+                        "first_person": "v.c_ifp"
+                    },
+                    {
+                        "third_person": "!v.c_ifp"
+                    }
+                ]
+            },
+            "render_controllers": [
+                "controller.render.weapon"
+            ]
+        }
+    }
+}

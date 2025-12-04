@@ -1,4 +1,4 @@
-{
+	{
 	"format_version": "1.20.80",
 	"minecraft:client_entity": {
 		"description": {
@@ -16,8 +16,7 @@
 				"controller.render.minoshroom"
 			],
 			"spawn_egg": {
-				"base_color": "#AE1A1A",
-				"overlay_color": "#C4A8A8"
+				"texture": "myth:minshroom_spawn_egg"
 			},
 			"animations": {
 				"walking": "animation.minotauro.andando",

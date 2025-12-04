@@ -2,29 +2,29 @@
 	"format_version": "1.20.80",
 	"minecraft:client_entity": {
 		"description": {
-			"identifier": "myth:naga",
+			"identifier": "myth:yeti",
 			"materials": {
 				"default": "entity_alphatest"
 			},
 			"textures": {
-				"default": "textures/entity/Naga"
+				"default": "textures/entity/Yeti"
 			},
 			"geometry": {
-				"default": "geometry.naga"
+				"default": "geometry.yeti"
 			},
 			"render_controllers": [
-				"controller.render.naga"
+				"controller.render.yeti"
 			],
 			"spawn_egg": {
-				"base_color": "#155D1B",
-				"overlay_color": "#674A00"
+				"base_color": "#7F7F7F",
+				"overlay_color": "#FFFFFF"
 			},
 			"animations": {
-				"run": "animation.naga.run",
-				"walk": "animation.naga.walk",
-				"idle": "animation.naga.idle",
-				"attack": "animation.naga.attack",
-				"roar": "animation.naga.roar"
+				"idle": "animation.yeti.idle",
+				"walk": "animation.yeti.walk",
+				"run": "animation.yeti.run",
+				"roar": "animation.yeti.roar",
+				"attack": "animation.yeti.attack"
 			},
 			"scripts": {
 				"animate": [
